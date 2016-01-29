@@ -373,7 +373,13 @@ section {
   and (min-device-width: 768px) 
   and (max-device-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 1) {
+     
       
+.main-nav li {    
+    display: table-cell;    
+    text-align: center;
+    width:25%;
+}
       .main-nav a {
     font-weight: 100;
     font-family:'Roboto Condensed', sans-serif;
@@ -393,7 +399,9 @@ section {
 }
       
  
-  
+ #home-button {
+    width:25%;
+} 
  
 .mobile-buttons{
   display:none;
