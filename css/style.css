@@ -53,7 +53,7 @@ h1 {
 
 .header-wrap h1 {
     font-size: 26px;
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 100;
     font-family:'Roboto Condensed', sans-serif;
     color:#fefefe;
@@ -73,6 +73,7 @@ h1 {
     width:100%;
     background-color: #0198e1;
     background-color: #1d7cf2;
+    margin-top: -10px;
 }
 
 .main-nav ul {
@@ -101,7 +102,7 @@ h1 {
 
 
 .main-body {
-    min-height: 200px;
+    min-height: 250px;
 }
 
 
