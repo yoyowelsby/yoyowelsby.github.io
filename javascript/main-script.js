@@ -9,4 +9,4 @@ $('.slides').slick({
         
       });
 
-$(".main-nav").sticky();
+$(".main-header").sticky();

@@ -34,6 +34,10 @@ section {
     height: 100vh; 
 }
 
+.main-header{
+    background-color:black;
+    z-index: 1000;
+}
 
 .header-wrap{
     width:100%;
@@ -63,7 +67,7 @@ section {
     background-color: #0198e1;
     background-color: #1d7cf2;
     margin-top: -10px;
-    z-index: 1000;
+    
 }
 
 .main-nav ul {
@@ -98,7 +102,6 @@ section {
 
 .main-body{
     height:280px;
-    z-index: 10;
 }
 
 .slides {
@@ -311,7 +314,6 @@ section {
       
 .main-body {
     height:350px;
-    z-index: 10;
 }
       
 .slider-buttons {
@@ -523,7 +525,6 @@ section {
       
 .main-body{
     height:480px;
-    z-index: 10;
 }
       
 .our-machines img {
