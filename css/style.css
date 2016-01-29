@@ -467,6 +467,7 @@ p {
     width:60%;
     min-height: 240px;
     margin-top:10px;
+    margin-left: 3%;
 }
 .machines-text h2, p {
     font-weight: 100;
