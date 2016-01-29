@@ -527,7 +527,16 @@ section {
     padding: 0;
     
 } 
-      
+
+.main-nav ul {
+    width:100%;   
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    display: table;
+    list-style: none;
+    margin: 0 auto;
+}
       
 .main-body{
     height:480px;
@@ -608,6 +617,15 @@ section {
     
 } 
       
+.main-nav ul {
+    width:100%;   
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    display: table;
+    list-style: none;
+    margin: 0 auto;
+}
       
 .main-body{
     height:480px;    
@@ -683,6 +701,15 @@ section {
     
 } 
       
+ .main-nav ul {
+    width:100%;   
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    display: table;
+    list-style: none;
+    margin: 0 auto;
+}
       
 .main-body{
     height:480px;    
