@@ -422,11 +422,7 @@ section {
     border: none;
 }      
       
-.slick-dots {
-    bottom:30px;
-    font-size: 20px;
-    
-}
+
 
 .slick-dots li.slick-active button:before{
     color:#fefefe;
@@ -478,7 +474,10 @@ section {
 } 
 
 
-
+.slick-dots {
+    bottom:30px;
+    
+}
 
   
 }
@@ -534,6 +533,11 @@ section {
     margin-top: 5%;
     margin-left: 5%;
 } 
+      
+      
+.slick-dots {
+    bottom:60px;    
+}
 
 }
 
