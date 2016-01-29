@@ -26,10 +26,13 @@ body {
 	}
 
 p {
-   
+    font-weight: 100;
+    font-family:'Roboto Condensed', sans-serif;
 }
 
-
+section {
+    height: 100vh; 
+}
 
 
 .header-wrap{
@@ -360,27 +363,21 @@ p {
 
 /* ----------- iPad mini ----------- */
 
-
-/* Portrait */
+/* Portrait and Landscape */
 @media only screen 
   and (min-device-width: 768px) 
   and (max-device-width: 1024px) 
-  and (orientation: portrait) 
   and (-webkit-min-device-pixel-ratio: 1) {
-
-  .main-nav a {
+      
+      .main-nav a {
     font-weight: 100;
     font-family:'Roboto Condensed', sans-serif;
     color:#fefefe;
     font-size: 1.7em;
     display: block;
     text-decoration: none;
-}
+}  
 
-.our-machines img {
-    width:30%;
-    display: inline-block;
-}
       
 .machines-text {
     display: inline-block;
@@ -397,13 +394,8 @@ p {
     margin-top: 5%;
     margin-left: 2%;
 }  
-      
-      
-.main-body{
-    height:480px;
-}
-      
-
+  
+ 
 .mobile-buttons{
   display:none;
 }
@@ -419,11 +411,11 @@ p {
 }
 .machines-text h2 {    
     font-size: 2em;
-}
-
-
-
-.slider-buttons {
+}     
+      
+  
+      
+  .slider-buttons {
     margin-top: 30px;
     margin-left: 20%;
     background-color: #1d7cf2;
@@ -457,7 +449,43 @@ p {
       
 #bottom-hr {
     border-color:grey;
+}    
+      
+      
+  
 }
+
+
+
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+
+      
+  
+
+.our-machines img {
+    width:30%;
+    display: inline-block;
+}
+      
+
+      
+      
+.main-body{
+    height:480px;
+}
+      
+
+
+
+
+
   
 }
 
@@ -467,6 +495,43 @@ p {
   and (max-device-width: 1024px) 
   and (orientation: landscape) 
   and (-webkit-min-device-pixel-ratio: 1) {
+
+      
+.header-wrap{
+    margin-top: -3%;
+    max-height: 160px;
+}
+
+.header-wrap h1 {
+    font-size: 26px;
+    font-size: 2.3rem;
+    font-weight: 100;
+    font-family:'Roboto Condensed', sans-serif;
+    color:#fefefe;
+    display: inline-block;
+    top: -40px;
+    position: relative;
+    
+}
+
+.header-wrap img {  
+    margin: 0 auto;
+    margin-left: 5%;
+    margin-top: 3%;
+    display: inline-block;
+    padding: 0;
+    
+} 
+      
+      
+.main-body{
+    height:480px;
+}
+      
+.our-machines img {
+    width:20%;
+    display: inline-block;
+}      
 
 }
 

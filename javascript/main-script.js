@@ -8,3 +8,5 @@ $('.slides').slick({
     touchMove: true
         
       });
+
+$(".main-nav").sticky();
