@@ -90,7 +90,7 @@ p {
 
 
 .main-body{
-    height:300px;
+    height:280px;
 }
 
 .slides {
@@ -111,6 +111,7 @@ p {
     display: inline-block;
     width:60%;
     min-height: 240px;
+    margin-top:10px;
 }
 .machines-text h2, p {
     font-weight: 100;
@@ -129,7 +130,7 @@ p {
 }
 
 .slider-buttons {
-    margin-top: 40px;
+    margin-top: 30px;
     margin-left: 20%;
     background-color: #1d7cf2;
     width:60%;
