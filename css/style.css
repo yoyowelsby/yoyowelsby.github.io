@@ -104,7 +104,8 @@ h1 {
 
 
 .main-body {
-    min-height: 250px;
+    max-height: 270px;
+    overflow: hidden;
 }
 
 .slides {
@@ -113,7 +114,6 @@ h1 {
     margin-top: 5%;
 }
 .our-machines {
-    margin-left: 5%;
     
 }
 
