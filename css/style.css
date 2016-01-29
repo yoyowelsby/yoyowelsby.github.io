@@ -84,12 +84,11 @@ h1 {
     display: table;
     list-style: none;
     margin: 0 auto;
-    margin-left: -5%;
 }
 .main-nav li {    
     display: table-cell;    
     text-align: center;
-    width:33%;
+    width:30%;
 }
 .main-nav a {
     font-weight: 100;
@@ -98,6 +97,9 @@ h1 {
     font-size: 1.3em;
     display: block;
     text-decoration: none;
+}
+#home-button {
+    width:20%;
 }
 
 
