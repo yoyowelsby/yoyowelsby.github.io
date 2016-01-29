@@ -63,6 +63,7 @@ section {
     background-color: #0198e1;
     background-color: #1d7cf2;
     margin-top: -10px;
+    z-index: 1000;
 }
 
 .main-nav ul {
@@ -493,6 +494,7 @@ section {
 .header-wrap{
     margin-top: -3%;
     max-height: 160px;
+    
 }
 
 .header-wrap h1 {
@@ -536,7 +538,7 @@ section {
       
       
 .slick-dots {
-    bottom:60px;    
+    bottom:80px;    
 }
 
 }

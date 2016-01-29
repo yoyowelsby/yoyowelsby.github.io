@@ -1,7 +1,7 @@
 
 $('.slides').slick({
     autoplay:true,
-    autoplaySpeed: 4000,
+    autoplaySpeed: 4500,
     dots: true,
     arrows: false,
     pauseOnHover: true,
