@@ -9,7 +9,6 @@
 body, html {
     padding: 0;
     margin: 0;
-    -webkit-text-size-adjust: none;
 }
 
 body {
@@ -30,20 +29,7 @@ p {
    
 }
 
-section {
-    height: 100vh; 
-}
 
-section h1, section h2, section h3, section h4, section span {
-    margin: -.3em 0 .4em;
-    margin-top: -0.3em;
-    margin-right: 0px;
-    margin-bottom: 0.4em;
-    margin-left: 0px;
-}
-h1 {    
-    text-align: center;
-}
 
 
 .header-wrap{
@@ -103,18 +89,17 @@ h1 {
 }
 
 
-.main-body {
-    max-height: 270px;
-    overflow: hidden;
+.main-body{
+    height:300px;
 }
 
 .slides {
+    height:100%;
     width:100%;
     margin: 0 auto;
     margin-top: 5%;
 }
 .our-machines {
-    
 }
 
 .our-machines img {
@@ -156,6 +141,16 @@ h1 {
     border: none;
 }
 
+.slick-dots {
+    bottom:20px;
+    
+}
+.slick-dots li.slick-active button:before{
+    color:#fefefe;
+}
+.slick-dots li button:before{
+    color:grey;
+}
 
 .mobile-buttons {
     min-height:55px;
