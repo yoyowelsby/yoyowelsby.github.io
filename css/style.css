@@ -387,13 +387,7 @@ section {
     margin-left: 3%;
 }
       
-.slides {
-    height:100%;
-    width:100%;
-    margin: 0 auto;
-    margin-top: 5%;
-    margin-left: 2%;
-}  
+ 
   
  
 .mobile-buttons{
@@ -463,25 +457,25 @@ section {
   and (min-device-width: 768px) 
   and (max-device-width: 1024px) 
   and (orientation: portrait) 
-  and (-webkit-min-device-pixel-ratio: 1) {
-
-
-      
+  and (-webkit-min-device-pixel-ratio: 1) {      
   
 
 .our-machines img {
     width:30%;
     display: inline-block;
-}
-      
-
-      
+}      
       
 .main-body{
     height:480px;
 }
       
-
+.slides {
+    height:100%;
+    width:100%;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-left: 2%;
+} 
 
 
 
@@ -531,7 +525,15 @@ section {
 .our-machines img {
     width:20%;
     display: inline-block;
-}      
+}   
+      
+.slides {
+    height:100%;
+    width:100%;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-left: 5%;
+} 
 
 }
 
