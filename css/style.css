@@ -98,6 +98,7 @@ section {
 
 .main-body{
     height:280px;
+    z-index: 10;
 }
 
 .slides {
@@ -310,6 +311,7 @@ section {
       
 .main-body {
     height:350px;
+    z-index: 10;
 }
       
 .slider-buttons {
@@ -521,6 +523,7 @@ section {
       
 .main-body{
     height:480px;
+    z-index: 10;
 }
       
 .our-machines img {
