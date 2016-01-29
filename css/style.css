@@ -20,6 +20,12 @@ body {
     height:100%;
 }
 
+.clearfix::after {
+		content: " ";
+		display: table;
+		clear: both;
+	}
+
 p {
    
 }
@@ -35,8 +41,7 @@ section h1, section h2, section h3, section h4, section span {
     margin-bottom: 0.4em;
     margin-left: 0px;
 }
-h1 {
-    f
+h1 {    
     text-align: center;
 }
 
@@ -50,7 +55,7 @@ h1 {
     font-size: 26px;
     font-size: 2.5rem;
     font-weight: 100;
-    font-family:monospace;
+    font-family:'Roboto Condensed', sans-serif;
     color:#fefefe;
     margin-top: -10px;
     text-align: center;
@@ -68,32 +73,35 @@ h1 {
     width:100%;
     background-color: #0198e1;
     background-color: #1d7cf2;
-    min-height:30px;
 }
 
 .main-nav ul {
-    width:90%;   
+    width:100%;   
     text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    display: table;
+    list-style: none;
     margin: 0 auto;
-    margin-top: 3px;
-    display: inline-block;
+    margin-left: -5%;
 }
 .main-nav li {    
-    display: inline-block;    
-    margin-left: 5%;    
+    display: table-cell;    
     text-align: center;
-    
+    width:33%;
 }
 .main-nav a {
     font-weight: 100;
-    font-family:monospace;
+    font-family:'Roboto Condensed', sans-serif;
     color:#fefefe;
-    font-size: 1.5em;
+    font-size: 1.3em;
+    display: block;
+    text-decoration: none;
 }
 
 
 .main-body {
-    min-height: 300px;
+    min-height: 200px;
 }
 
 
@@ -106,10 +114,11 @@ h1 {
 }
 
 .mobile-buttons h1 {
+    
     font-weight: 100;
-    font-family:monospace;
+    font-family:'Roboto Condensed', sans-serif;
     color:#fefefe;
-    font-size: 1.7em;
+    font-size: 1.5em;
     text-align: center;
     
 }
