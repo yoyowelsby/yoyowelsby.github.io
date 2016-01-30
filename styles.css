@@ -8,6 +8,7 @@ section {
    background-image: url("https://static.pexels.com/photos/16502/pexels-photo.jpg");
     background-size: cover;
     background-position: center;
+    min-height: 1000px;
     padding-top: 70px;
 }
 
