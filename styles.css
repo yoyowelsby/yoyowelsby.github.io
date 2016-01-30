@@ -1,5 +1,6 @@
 section {
     height: 100vh; 
+    width:80vh;
 }
 
 
@@ -35,9 +36,11 @@ hr {
     border-top: solid 2px #252839;
     border-bottom: solid 2px rgba(0,0,0,0.2);
 }
-body {
+html,body {
     font-family: 'lato';
     background-color: #252839;
+    margin: 0;
+    padding: 0;
 }
 
 .navbar-inverse .navbar-nav>li>a {
