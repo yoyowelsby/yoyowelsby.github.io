@@ -80,7 +80,6 @@ html,body {
 }
 
 .mobile-buttons-wrap {
-    padding-top: 3%;
     height: 25%;
     
 }
@@ -96,7 +95,22 @@ html,body {
 
 
 
+@media only screen and (min-device-width: 768px) {
+.slides h2 {
+    color:#fefefe;    
+    font-size: 2.5em;
+ }
+.slides p, li {
+    color:#fefefe;    
+    font-size: 1.3em;    
+}
 
+.mobile-buttons-wrap {
+    display: none;
+}
+    
+    
+}
 
 
 /* ================================= 
